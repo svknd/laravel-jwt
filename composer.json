@@ -1,0 +1,20 @@
+{
+    "name": "svknd/laravel-jwt",
+    "description": "Laravel Jwt Package",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Irvan Maulana",
+            "email": "me@tukangremot.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Svknd\\Laravel\\Jwt\\": "src/"
+        }
+    },
+    "require": {
+        "firebase/php-jwt": "^5.2"
+    }
+}
